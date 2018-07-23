@@ -12,6 +12,7 @@ ReactDOM.render(
     <Router>
       <Switch>
         <Route path="/" exact component={App} />
+        <Route path="/testroute" exact component={App} />
         <Route component={NotFound} status={404} />
       </Switch>
     </Router>, 
