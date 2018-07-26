@@ -4,7 +4,14 @@ import App from '../App';
 
 const Projects = () => (
     <App>
-        <h1>Contact</h1>
+        <article className="post" id="index">
+        <header>
+            <div className="title">
+            <h2>Projects</h2>
+            <p>More about projects.</p>
+            </div>
+        </header>
+        </article>
     </App>
 );
 

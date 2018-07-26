@@ -4,7 +4,14 @@ import App from '../App';
 
 const Resume = () => (
     <App>
-        <h1>Resume</h1>
+        <article className="post" id="index">
+        <header>
+            <div className="title">
+            <h2>Resume</h2>
+            <p>Link to resume</p>
+            </div>
+        </header>
+        </article>
     </App>
 );
 

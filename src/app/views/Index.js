@@ -8,7 +8,7 @@ const Index = () => (
         <article className="post" id="index">
         <header>
             <div className="title">
-            <h2><Link to="/">About this site</Link></h2>
+            <h2>About this site</h2>
             <p>A react app inspired by <a href="https://html5up.net/future-imperfect">Future Imperfect</a>.</p>
             </div>
         </header>
