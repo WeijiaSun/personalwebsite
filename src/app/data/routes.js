@@ -1,7 +1,7 @@
 const data = [
     {
       path: '/',
-      label: 'Weijia Sun',
+      label: 'Weijia Sun 孙伟珈',
       index: true,
     },
     {
