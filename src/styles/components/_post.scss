@@ -125,8 +125,8 @@
 		@include breakpoint(medium) {
 			border-left: 0;
 			border-right: 0;
-			left: _size(section-spacing) * -1;
-			width: calc(100% + (#{_size(section-spacing)} * 2));
+			//left: _size(section-spacing) * -1;
+			//width: calc(100% + (#{_size(section-spacing)} * 2));
 
 			> header {
 				@include vendor('flex-direction', 'column');
@@ -186,15 +186,15 @@
 
 		@include breakpoint(small) {
 			@include padding(_size(section-spacing-small), _size(section-spacing-small));
-			left: _size(section-spacing-small) * -1;
+			//left: _size(section-spacing-small) * -1;
 			margin: 0 0 _size(element-margin) 0;
-			width: calc(100% + (#{_size(section-spacing-small)} * 2));
+			//width: calc(100% + (#{_size(section-spacing-small)} * 2));
 
 			> header {
 				@include padding(_size(section-spacing-small) * 2, _size(section-spacing-small), (0, 0, -0.5em, 0));
-				left: (_size(section-spacing-small) * -1);
+				// left: (_size(section-spacing-small) * -1);
 				margin: (_size(section-spacing-small) * -1) 0 _size(section-spacing-small) 0;
-				width: calc(100% + #{_size(section-spacing-small) * 2});
+				//width: calc(100% + #{_size(section-spacing-small) * 2});
 
 				.title {
 					h2 {
