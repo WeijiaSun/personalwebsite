@@ -8,7 +8,7 @@ const Stats = () => (
         <header>
             <div className="title">
             <h2>Stats</h2>
-            <p>Some really intresting things going to show up here. I promise.</p>
+            <p>Some really intresting things are going to show up here. I promise.</p>
             </div>
         </header>
         </article>
