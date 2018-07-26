@@ -2,10 +2,10 @@ import React from 'react';
 
 import App from '../App';
 
-const Projects = () => (
+const Index = () => (
     <App>
-        <h1>Contact</h1>
+        <h1>Index</h1>
     </App>
 );
 
-export default Projects;
+export default Index;

@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import './index.css';
 import App from './app/App';
 import registerServiceWorker from './registerServiceWorker';
 
 //Custom imports
+import Index from './app/views/Index';
 import About from './app/views/About';
 import Projects from './app/views/Projects';
 import Resume from './app/views/Resume';
@@ -16,7 +16,7 @@ import NotFound from './app/views/NotFound';
 ReactDOM.render(
     <Router>
       <Switch>
-        <Route path="/" exact component={App} />
+        <Route path="/" exact component={Index} />
         <Route path="/about" component={About} />
         <Route path="/resume" component={Resume} />
         <Route path="/projects" component={Projects} />

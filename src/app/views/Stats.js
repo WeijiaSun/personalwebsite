@@ -1,7 +1,11 @@
 import React from 'react';
 
+import App from '../App';
+
 const Stats = () => (
-  <h1>Stats</h1>
+    <App>
+        <h1>Stats</h1>
+    </App>
 );
 
 export default Stats;

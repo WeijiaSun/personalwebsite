@@ -1,7 +1,11 @@
 import React from 'react';
 
+import App from '../App';
+
 const Contact = () => (
-  <h1>Contact</h1>
+    <App>
+        <h1>Contact</h1>
+    </App>
 );
 
 export default Contact;
