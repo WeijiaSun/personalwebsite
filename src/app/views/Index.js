@@ -9,7 +9,7 @@ const Index = () => (
         <header>
             <div className="title">
             <h2>About this site</h2>
-            <p>A react app inspired by <a href="https://html5up.net/future-imperfect">Future Imperfect</a>.</p>
+            <p>A react app inspired by <a href="https://html5up.net/future-imperfect" target="_blank">Future Imperfect</a>.</p>
             </div>
         </header>
         <p> Hi there. </p> 
@@ -20,7 +20,7 @@ const Index = () => (
         fulfill your craving for {' '}<Link to="/stats">numbers</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
         </p>
-        <p> Source available <a href="https://github.com/WeijiaSun/personalwebsite">here</a>.</p>
+        <p> Source available <a href="https://github.com/WeijiaSun/personalwebsite" target="_blank">here</a>.</p>
         </article>
     </App>
 );
