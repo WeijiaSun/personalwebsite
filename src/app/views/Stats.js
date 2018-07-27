@@ -2,7 +2,7 @@ import React from 'react';
 
 import App from '../App';
 
-import Numbers from '../components/stats/Numbers';
+import Age from '../components/stats/Age';
 
 const Stats = () => (
     <App>
@@ -16,7 +16,11 @@ const Stats = () => (
             <tbody>
                 <tr>
                     <td width="70%">Age</td>
-                    <td><Numbers /></td>   
+                    <td><Age /></td>   
+                </tr>
+                <tr>
+                    <td width="70%">Miles I have driven since licensed at 21st birthday</td>
+                    <td>{(124200 + ((Date.now() - new Date('2018-07-26T00:00:00')) / (24 * 60 * 60 *1000)) * 40).toFixed(0)}</td>   
                 </tr>
             </tbody>
         </table>
