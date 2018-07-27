@@ -20,7 +20,7 @@ const Stats = () => (
                 </tr>
                 <tr>
                     <td width="70%">Miles I have driven since licensed at 21st birthday</td>
-                    <td>{(124200 + ((Date.now() - new Date('2018-07-26T00:00:00')) / (24 * 60 * 60 *1000)) * 40).toFixed(0)}</td>   
+                    <td>{(124200 + ((Date.now() - new Date('2018-07-26T00:00:00')) / (24 * 60 * 60 *1000)) * 96).toFixed(0)}</td>   
                 </tr>
             </tbody>
         </table>
