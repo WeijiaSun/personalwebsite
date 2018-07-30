@@ -8,7 +8,7 @@ const Resume = () => (
         <header>
             <div className="title">
             <h2>Resume</h2>
-            <p>Link to resume</p>
+            <p>Click <a href="/WeijiaSunP.pdf" target="_blank" rel="noopener noreferrer">here</a> for Resume</p>
             </div>
         </header>
         </article>
