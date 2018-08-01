@@ -9,9 +9,9 @@ const Projects = () => (
         <header>
             <div className="title">
             <h2>Projects</h2>
-            <p>More details about my current/past projects to come. For now, you can check my resume <Link to="/resume">here</Link></p>            
             </div>
         </header>
+        <p>More details about my current/past projects to come. For now, you can check my resume <Link to="/resume">here</Link></p>            
         </article>
     </App>
 );
