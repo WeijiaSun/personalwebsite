@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import App from '../App';
 
@@ -8,10 +7,18 @@ const Contact = () => (
         <article className="post" id="index">
         <header>
             <div className="title">
-            <h2>Contact</h2>
-            <p>More ways to contect me to come. For now, you can check my resume <Link to="/resume">here</Link></p>
+                <h2>Contact</h2>
             </div>
         </header>
+        <p>You can reach me at literally almost anything @sunweijia.com. </p>
+        <p>For example, {' '} 
+            <a href='mailto:literally-almost-anything@sunweijia.com'>
+                literally-almost-anything@sunweijia.com
+            </a> or {' '}
+            <a href='mailto:some-other-random-string@sunweijia.com'>
+                some-other-random-string@sunweijia.com
+            </a>
+        </p>
         </article>
     </App>
 );
