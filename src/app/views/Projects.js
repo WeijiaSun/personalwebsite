@@ -11,7 +11,14 @@ const Projects = () => (
             <h2>Projects</h2>
             </div>
         </header>
-        <p>More details about my current/past projects to come. For now, you can check my resume <Link to="/resume">here</Link></p>            
+        <div className="cell-container">
+            <article className="mini-post">
+                <header>
+                    <h3>Dell Standard Price List</h3>
+                </header>
+                <a href="https://channel.dell.com/spl/products" target="_blank" rel="noopener noreferrer" className="image"><img src="/images/spl.png" alt=""/></a>
+            </article>
+        </div>
         </article>
     </App>
 );
