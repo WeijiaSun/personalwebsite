@@ -2518,10 +2518,6 @@ body.single #footer {
     padding: 0 .5em;
     margin: 0; }
 
-@media screen and (max-width: 980px) {
-  .pdf {
-    display: none; } }
-
 /* Skills */
 .skills .title {
   text-align: center; }

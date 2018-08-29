@@ -18,9 +18,3 @@
 		}
 	}
 }
-
-@include breakpoint(medium) {
-	.pdf {
-		display: none;
-	}
-}
