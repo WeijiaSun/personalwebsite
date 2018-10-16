@@ -4,10 +4,10 @@ const data = [
       label: 'Weijia Sun 孙伟珈',
       index: true,
     },
-    {
-      path: '/about',
-      label: 'About Me',
-    },
+    // {
+    //   path: '/about',
+    //   label: 'About Me',
+    // },
     {
       path: '/resume',
       label: 'Resume',
