@@ -17,7 +17,7 @@ const Sidebar = () => (
       </p>
       <ul className="actions">
         <li>
-          {window.location.pathname !== '/resume'? <Link to="/resume" className="button">Learn More</Link> : null}
+          {window.location.pathname !== '/resume'? <Link to="/resume" className="button">Learn More</Link> : <Link to="/resume" className="button disabled">Learn More</Link>}
         </li>
       </ul>
     </section>
