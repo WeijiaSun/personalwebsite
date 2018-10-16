@@ -13,8 +13,10 @@ const Index = () => (
             </div>
         </header>
         <p> Hi there. </p> 
-        <p> Please feel free to read more {' '}
-            <Link to="/about">about me</Link>, view my {' '}
+        <p> Please feel free to {' '} 
+            {/* read more {' '}
+            <Link to="/about">about me</Link>,  */}
+            view my {' '}
         <Link to="/resume">resume</Link>, check out the {' '}
         <Link to="/projects">projects</Link> I am/was part of, {' '}
         fulfill your craving for {' '}<Link to="/stats">numbers</Link>, {' '}
