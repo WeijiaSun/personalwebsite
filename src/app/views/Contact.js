@@ -21,6 +21,7 @@ const Contact = () => (
                 some-other-random-string@sunweijia.com
             </a>
         </p>
+        <br/>
         <ul className="icons">
             {socials.map(s => (
               <li key={s.label}><a href={s.link}><FontAwesomeIcon icon={s.icon} /></a></li>
