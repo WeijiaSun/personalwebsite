@@ -12,7 +12,8 @@ const Sidebar = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Content on the way... {" "} Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean cursus sollicitudin nulla sodales mollis. Praesent eu pretium leo. Maecenas rutrum placerat gravida.
+      <p>Hello, Internet. I am Weijia, a software engineer resides in the lovely Austin, TX. I graduated with a computer science degree from University of Michigan
+        in addition to an electrical and computer engineering degree from Shanghai Jiao Tong University.
       </p>
       <ul className="actions">
         <li>

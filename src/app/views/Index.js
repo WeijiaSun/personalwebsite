@@ -12,7 +12,7 @@ const Index = () => (
             <p>A react app inspired by <a href="https://html5up.net/future-imperfect" target="_blank" rel="noopener noreferrer">Future Imperfect</a>.</p>
             </div>
         </header>
-        <p> Hi there. </p> 
+        <p> Welcome to my website. </p> 
         <p> Please feel free to {' '} 
             {/* read more {' '}
             <Link to="/about">about me</Link>,  */}
