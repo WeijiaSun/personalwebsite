@@ -20,6 +20,10 @@ const Stats = () => (
                     <td><Age /></td>   
                 </tr>
                 <tr>
+                    <td width="70%">Uber rating</td>
+                    <td>4.94</td>   
+                </tr>
+                <tr>
                     <td width="70%">Miles driven since 12/09/2013</td>
                     <td>{(124200 + ((Date.now() - new Date('2018-07-26T00:00:00')) / (24 * 60 * 60 *1000)) * 96).toFixed(0)}</td>   
                 </tr>
