@@ -17,7 +17,7 @@ const Index = () => (
             {/* read more {' '}
             <Link to="/about">about me</Link>,  */}
             view my {' '}
-        <Link to="/resume">resume</Link>, check out the {' '}
+        <a href="__files/WeijiaSunP.pdf" target="_blank" rel="noopener noreferrer">resume</a>, check out the {' '}
         <Link to="/projects">projects</Link> I am/was part of, {' '}
         fulfill your craving for {' '}<Link to="/stats">numbers</Link>, {' '}
         or <Link to="/contact">contact</Link> me.
