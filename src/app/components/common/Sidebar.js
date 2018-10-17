@@ -1,5 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+
+import socials from '../../data/socials'
+
 
 const Sidebar = () => (
     <section id="sidebar">
@@ -19,6 +23,11 @@ const Sidebar = () => (
         <li>
           <a className="button" href="__files/WeijiaSunP.pdf" target="_blank" rel="noopener noreferrer">Resume Download</a>
         </li>
+      </ul>
+      <ul className="icons">
+        {socials.map(s => (
+          <li key={s.label}><a href={s.link}><FontAwesomeIcon icon={s.icon} /></a></li>
+        ))}
       </ul>
     </section>
 
