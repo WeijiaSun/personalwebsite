@@ -8,10 +8,10 @@ const data = [
     //   path: '/about',
     //   label: 'About Me',
     // },
-    {
-      path: '/resume',
-      label: 'Resume',
-    },
+    // {
+    //   path: '/resume',
+    //   label: 'Resume',
+    // },
     {
       path: '/projects',
       label: 'Projects',

@@ -7,7 +7,6 @@ const Sidebar = () => (
       <Link to="/" className="logo"><img src="/images/me.jpg" alt="" /></Link>
       <header>
         <h2>Weijia Sun</h2>
-        <p><a href="mailto:contact@sunweijia.com">contact@sunweijia.com</a></p>
       </header>
     </section>
 
@@ -17,7 +16,7 @@ const Sidebar = () => (
       </p>
       <ul className="actions">
         <li>
-          {window.location.pathname !== '/resume'? <Link to="/resume" className="button">Learn More</Link> : <Link to="/resume" className="button disabled">Learn More</Link>}
+          <a className="button" href="__files/WeijiaSunP.pdf" target="_blank" rel="noopener noreferrer">Resume Download</a>
         </li>
       </ul>
     </section>
