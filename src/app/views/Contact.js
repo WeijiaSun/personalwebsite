@@ -1,6 +1,8 @@
 import React from 'react';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 import App from '../App';
+import socials from '../data/socials'
 
 const Contact = () => (
     <App>
@@ -19,6 +21,11 @@ const Contact = () => (
                 some-other-random-string@sunweijia.com
             </a>
         </p>
+        <ul className="icons">
+            {socials.map(s => (
+              <li key={s.label}><a href={s.link}><FontAwesomeIcon icon={s.icon} /></a></li>
+            ))}
+        </ul>
         </article>
     </App>
 );
