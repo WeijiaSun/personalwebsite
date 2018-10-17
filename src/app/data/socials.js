@@ -27,7 +27,7 @@ const socials = [
         icon: faInstagram,
     },
     {
-        link: '/images/wechatqrcode.jpg',
+        link: '/__files/wechatqrcode.jpg',
         label: 'Wechat',
         icon: faWeixin,
     },
