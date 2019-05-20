@@ -17,6 +17,7 @@ const Projects = () => (
                 </header>
                 <a href="http://uicore-server-015.apps.cus.koaplatform.io/" target="_blank" rel="noopener noreferrer" className="image"><img src="/images/dds.png" alt=""/></a>
             </article>
+            <hr/>
             <article className="mini-post">
                 <header>
                     <h3>Dell Standard Price List</h3>
