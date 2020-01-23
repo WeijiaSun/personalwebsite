@@ -26,6 +26,22 @@ const Projects = () => (
             </article>
         </div>
         </article>
+
+        <article className="post">
+        <header>
+            <div className="title">
+            <h2>Something Fun Stuff</h2>
+            </div>
+        </header>
+        <div className="cell-container">
+            <article className="mini-post">
+                <header>
+                    <h3><a href="https://jeffbasils.com/" target="_blank" rel="noopener noreferrer">jeffbasils.com</a> &</h3>
+                    <h3><a href="https://jeffbasil.com/" target="_blank" rel="noopener noreferrer">jeffbasil.com</a></h3>
+                </header>
+            </article>
+        </div>
+        </article>
     </App>
 );
 
