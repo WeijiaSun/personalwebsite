@@ -30,7 +30,7 @@ const Projects = () => (
         <article className="post">
         <header>
             <div className="title">
-            <h2>Something Fun Stuff</h2>
+            <h2>Some Fun Stuff</h2>
             </div>
         </header>
         <div className="cell-container">
