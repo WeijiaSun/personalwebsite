@@ -20,6 +20,13 @@ const Projects = () => (
             <hr/>
             <article className="mini-post">
                 <header>
+                    <h3>Dell APEX Console</h3>
+                </header>
+                <a href="https://www.delltechnologies.com/en-us/apex/console.htm" target="_blank" rel="noopener noreferrer" className="image"><img src="/images/apex.png" alt=""/></a>
+            </article>
+            <hr/>
+            <article className="mini-post">
+                <header>
                     <h3>Dell Standard Price List</h3>
                 </header>
                 <a href="https://channel.dell.com/spl/products" target="_blank" rel="noopener noreferrer" className="image"><img src="/images/spl.png" alt=""/></a>
