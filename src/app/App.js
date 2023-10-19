@@ -8,13 +8,14 @@ import Sidebar from './components/common/Sidebar';
 class App extends Component {
   render() {
     return (
-      <div id="wrapper">
-        <Header /> 
-        <div id="main">
-          {this.props.children}
-        </div>
-        <Sidebar />
-      </div>
+      <div></div>
+      // <div id="wrapper">
+      //   <Header /> 
+      //   <div id="main">
+      //     {this.props.children}
+      //   </div>
+      //   <Sidebar />
+      // </div>
     );
   }
 }
