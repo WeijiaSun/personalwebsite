@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 
 import '../styles/main.css';
 
-import Header from './components/common/Header';
-import Sidebar from './components/common/Sidebar';
+// import Header from './components/common/Header';
+// import Sidebar from './components/common/Sidebar';
 
 class App extends Component {
   render() {
